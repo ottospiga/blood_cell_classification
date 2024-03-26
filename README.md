@@ -7,9 +7,8 @@ Dataset involved in this project:
 
 
 ## Project Overview
-(What was done so far)
 
-Fase:
+Status:
 1. Getting/choise the dataset
 2. Structure the project
 3. _Exploring the data and start of the EDA **in progress**_
@@ -17,7 +16,12 @@ Fase:
   >presentation of the project
   > https://docs.google.com/presentation/d/1CLpYXndVcSCMrxocgIsOs3Yk3uc-7qbWYqRG9Q8c9nE/edit#slide=id.g2c04e608fb2_0_2
 
-4. 
+4. Pre-processing
+5. Baseline Model
+6.
+
+
+---------------
 
 ### Problem Area
 
@@ -42,7 +46,8 @@ The dataset for training the ml model comprises a collection of microscope image
 The distribution from the data clases:
 
 ![Image Alt text](/figures/screenshot_distribution.png)
-
+---------------
+---------------
 ## Project structure
 
 ```bash
@@ -60,6 +65,23 @@ The distribution from the data clases:
 └── src
 ```
 
+### Walkthrough Demo
+
+...
+...
+...
+
+### Project Flowchart
+
+...
+...
+...
+
+### Credits & References
+
+...
+...
+...
 
 ------------------------
 
