@@ -11,15 +11,14 @@ Dataset involved in this project:
 Status:
 1. Getting/choise the dataset
 2. Structure the project
-3. _Exploring the data and start of the EDA **in progress**_
-
-  >presentation of the project
-  > https://docs.google.com/presentation/d/1CLpYXndVcSCMrxocgIsOs3Yk3uc-7qbWYqRG9Q8c9nE/edit#slide=id.g2c04e608fb2_0_2
-
+3. Exploring the data and start of the EDA
 4. Pre-processing
-5. Baseline Model
-6.
+5. _Baseline Model_
 
+  > presentation of the project: 
+  > https://docs.google.com/presentation/d/1CLpYXndVcSCMrxocgIsOs3Yk3uc-7qbWYqRG9Q8c9nE/edit#slide=id.g2c04e608fb2_0_2
+6. Improving the model
+7. Comparing with others models
 
 ---------------
 
@@ -47,7 +46,7 @@ The distribution from the data clases:
 
 ![Image Alt text](/figures/screenshot_distribution.png)
 ---------------
----------------
+
 ## Project structure
 
 ```bash
@@ -70,12 +69,14 @@ The distribution from the data clases:
     └── hello_opencv.ipynb
     └── hemato.jpeg
 ```
-
+---------------
 ### Walkthrough Demo
 
 ...
 ...
 ...
+
+---------------
 
 ### Project Flow
 
@@ -83,23 +84,14 @@ Inside the notebooks dir we have our analysis process, which consist with jupyte
 
 In their names we have the sequence and what we try/accomplish in each.
 
-01-EDA.ipynb
-02-pre-processing.ipynb
-03-baseline-model.ipynb
-03-test_script.ipynb
-
-
-### Future ideas
-
-Inside the notebooks dir we have our analysis process, which consist with jupyter notebooks that follow a sequence.
-
-In their names we have the sequence and what we try/accomplish in each.
-
-01-EDA.ipynb
-02-pre-processing.ipynb
-03-baseline-model.ipynb
-03-test_script.ipynb
-
+```bash
+├── notebooks
+│   ├── 01-EDA.ipynb
+│   ├── 02-pre-processing.ipynb
+│   ├── 03-baseline-model.ipynb
+│   ├── 03-test_script.ipynb
+```
+---------------
 
 ### Future ideas
 
@@ -112,6 +104,7 @@ In their names we have the sequence and what we try/accomplish in each.
 - Test to train/fit a RCNN model
 
 ...
+---------------
 
 ### Credits & References
 
