@@ -83,11 +83,13 @@ Inside the notebooks dir we have our analysis process, which consist with jupyte
 
 In their names we have the sequence and what we try/accomplish in each.
 
-01-EDA.ipynb
-02-pre-processing.ipynb
-03-baseline-model.ipynb
-03-test_script.ipynb
-
+```bash
+├── notebooks
+│   ├── 01-EDA.ipynb
+│   ├── 02-pre-processing.ipynb
+│   ├── 03-baseline-model.ipynb
+│   ├── 03-test_script.ipynb
+```
 
 ### Future ideas
 
