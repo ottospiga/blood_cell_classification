@@ -77,7 +77,19 @@ The distribution from the data clases:
 ...
 ...
 
-### Project Flowchart
+### Project Flow
+
+Inside the notebooks dir we have our analysis process, which consist with jupyter notebooks that follow a sequence.
+
+In their names we have the sequence and what we try/accomplish in each.
+
+01-EDA.ipynb
+02-pre-processing.ipynb
+03-baseline-model.ipynb
+03-test_script.ipynb
+
+
+### Future ideas
 
 Inside the notebooks dir we have our analysis process, which consist with jupyter notebooks that follow a sequence.
 
