@@ -5,6 +5,17 @@ Dataset involved in this project:
 
 > https://drive.google.com/drive/folders/1Ki4-020vszEdzjNAOPx5KHjTNjndhYER?usp=sharing
 
+---------------
+
+## Walkthrough Demo
+
+Afther cloning the repository, you can install the enviroment requires to be able to run the project
+
+> file is on the root dir under the name environment.yml
+
+To test, you can enter in each script in the notebook's folder.
+
+---------------
 
 ## Project Overview
 
@@ -18,33 +29,43 @@ Status:
   > presentation of the project: 
   > https://docs.google.com/presentation/d/1CLpYXndVcSCMrxocgIsOs3Yk3uc-7qbWYqRG9Q8c9nE/edit#slide=id.g2c04e608fb2_0_2
 6. Improving the model
+
 7. Comparing with others models
 
 ---------------
 
-### Problem Area
+### Future ideas
 
-In the field of healthcare, the project focuses on addressing the challenges associated with identifying white blood cells from microscope images. The difficulty lies in accurately categorizing these cells, which can lead to potential misinterpretations and impact patient outcomes.
+...
+- Sample the data to 2000 images
+- Find a better logistic regression classification (c-value, solver and penality)
+- PCA maybe?
+- Test to train/fit a models with cluster?
+- Test to train/fit a NN model
+- Test to train/fit a RCNN model
 
-### Those affected
+...
+---------------
 
-Healthcare professionals, including Medical Laboratory Technologists, Diagnostic Cytology Technologists, Clinical Genetics Technologists, Medical Laboratory Assistants, and Oncologist Doctors, are directly affected. These individuals encounter the daily task of analyzing white blood cells and would benefit from a more efficient and accurate identification process.
 
-### Proposed Data Science solution
+<!-- ### Problem Area
+In the field of healthcare, the project focuses on addressing the challenges associated with identifying white blood cells from microscope images. The difficulty lies in accurately categorizing these cells, which can lead to potential misinterpretations and impact patient outcomes. -->
 
-The proposed solution involves leveraging machine learning (ML) to develop an algorithm capable of identifying white blood cells based on visual characteristics. By training the model on a dataset of previous cell images, the system aims to provide valuable assistance to healthcare professionals in the categorization process.
+<!-- ### Those affected
+Healthcare professionals, including Medical Laboratory Technologists, Diagnostic Cytology Technologists, Clinical Genetics Technologists, Medical Laboratory Assistants, and Oncologist Doctors, are directly affected. These individuals encounter the daily task of analyzing white blood cells and would benefit from a more efficient and accurate identification process. -->
 
-### Impact of your solution
+<!-- ### Proposed Data Science solution
+The proposed solution involves leveraging machine learning (ML) to develop an algorithm capable of identifying white blood cells based on visual characteristics. By training the model on a dataset of previous cell images, the system aims to provide valuable assistance to healthcare professionals in the categorization process. -->
 
-The project's impact extends to both societal and business domains within the healthcare sector. By enhancing the accuracy and speed of white blood cell identification, the solution has the potential to improve healthcare diagnostics, leading to cost savings and better patient outcomes.
+<!-- ### Impact of your solution
+The project's impact extends to both societal and business domains within the healthcare sector. By enhancing the accuracy and speed of white blood cell identification, the solution has the potential to improve healthcare diagnostics, leading to cost savings and better patient outcomes. -->
 
-### Description Dataset
+<!-- ### Description Dataset
 
 The dataset for training the ml model comprises a collection of microscope images featuring various white blood cell phenotypes. Each image is labeled with the corresponding cell category(in this project we have a directory for each one), allowing the model to learn and generalize patterns for accurate identification. The dataset aims to represent the diversity of white blood cell characteristics encountered in real-world healthcare scenarios.
 
 The distribution from the data clases:
-
-![Image Alt text](/figures/screenshot_distribution.png)
+![Image Alt text](/figures/screenshot_distribution.png) -->
 ---------------
 
 ## Project structure
@@ -69,12 +90,6 @@ The distribution from the data clases:
     └── hello_opencv.ipynb
     └── hemato.jpeg
 ```
----------------
-### Walkthrough Demo
-
-...
-...
-...
 
 ---------------
 
@@ -91,19 +106,7 @@ In their names we have the sequence and what we try/accomplish in each.
 │   ├── 03-baseline-model.ipynb
 │   ├── 03-test_script.ipynb
 ```
----------------
 
-### Future ideas
-
-...
-- Sample the data to 2000 images
-- Find a better logistic regression classification (c-value, solver and penality)
-- PCA maybe?
-- Test to train/fit a models with cluster?
-- Test to train/fit a NN model
-- Test to train/fit a RCNN model
-
-...
 ---------------
 
 ### Credits & References
