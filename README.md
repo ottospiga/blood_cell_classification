@@ -5,6 +5,23 @@ Dataset involved in this project:
 
 > https://drive.google.com/drive/folders/1Ki4-020vszEdzjNAOPx5KHjTNjndhYER?usp=sharing
 
+
+## Project Overview
+
+Status:
+1. Getting/choise the dataset
+2. Structure the project
+3. Exploring the data and start of the EDA
+4. Pre-processing
+5. Baseline Model
+
+  > presentation of the project: 
+  > https://docs.google.com/presentation/d/1CLpYXndVcSCMrxocgIsOs3Yk3uc-7qbWYqRG9Q8c9nE/edit#slide=id.g2c04e608fb2_0_2
+6. Improving the model
+7. Comparing with others models
+
+_8. Improving the models to get better_
+
 ---------------
 
 ## Walkthrough Demo
@@ -16,32 +33,13 @@ Afther cloning the repository, you can install the enviroment requires to be abl
 To test, you can enter in each script in the notebook's folder.
 
 ---------------
+## Future ideas
 
-## Project Overview
-
-Status:
-1. Getting/choise the dataset
-2. Structure the project
-3. Exploring the data and start of the EDA
-4. Pre-processing
-5. _Baseline Model_
-
-  > presentation of the project: 
-  > https://docs.google.com/presentation/d/1CLpYXndVcSCMrxocgIsOs3Yk3uc-7qbWYqRG9Q8c9nE/edit#slide=id.g2c04e608fb2_0_2
-6. Improving the model
-
-7. Comparing with others models
-
----------------
-
-### Future ideas
-
-...
-- Sample the data to 2000 images
+~~- Sample the data to 2000 images~~
 - Find a better logistic regression classification (c-value, solver and penality)
-- PCA maybe?
-- Test to train/fit a models with cluster?
-- Test to train/fit a NN model
+
+~~- Test to train/fit a NN model~~
+
 - Test to train/fit a RCNN model
 
 ...
@@ -111,5 +109,6 @@ In their names we have the sequence and what we try/accomplish in each.
 
 ### Credits & References
 
-...
+- Otto Spigariol (ottospiga@gmail.com)
+
 
