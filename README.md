@@ -76,13 +76,17 @@ The distribution from the data clases:
 ├── models
 │   └── logistic_regression_model.pkl
 ├── notebooks
-│   └── first_test
-│       ├── Model.h5
-│       └── test_script.ipynb
+│   ├── 0-NN-test-model.ipynb
 │   ├── 01-EDA.ipynb
 │   ├── 02-pre-processing.ipynb
 │   ├── 03-baseline-model.ipynb
-│   ├── 03-test_script.ipynb
+│   ├── 04-baseline-model-improved.ipynb
+│   ├── 05-CNN-model-resnet50.ipynb
+│   ├── 06-CNN-model-vgg19.ipynb
+│   ├── 07-CNN-model-resnet50-improved.ipynb
+│   ├── first_test
+│   │   ├── Model.h5
+│   │   └── test_script.ipynb
 ├── reports
 └── src
     └── hello_opencv.ipynb
@@ -99,10 +103,14 @@ In their names we have the sequence and what we try/accomplish in each.
 
 ```bash
 ├── notebooks
+│   ├── 0-NN-test-model.ipynb
 │   ├── 01-EDA.ipynb
 │   ├── 02-pre-processing.ipynb
 │   ├── 03-baseline-model.ipynb
-│   ├── 03-test_script.ipynb
+│   ├── 04-baseline-model-improved.ipynb
+│   ├── 05-CNN-model-resnet50.ipynb
+│   ├── 06-CNN-model-vgg19.ipynb
+│   ├── 07-CNN-model-resnet50-improved.ipynb
 ```
 
 ---------------
