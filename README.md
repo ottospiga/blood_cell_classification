@@ -74,7 +74,9 @@ The distribution from the data clases:
 ├── environment.yml
 ├── figures
 ├── models
-│   └── logistic_regression_model.pkl
+│   ├── logistic_regression_baseline_model.pkl
+│   ├── logistic_regression_model_bestC01_lbfgs_l2.pkl
+│   └── vgg19-script06.h5
 ├── notebooks
 │   ├── 0-NN-test-model.ipynb
 │   ├── 01-EDA.ipynb
